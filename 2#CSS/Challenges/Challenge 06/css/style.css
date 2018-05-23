@@ -1,0 +1,59 @@
+html {
+  background-image: url(https://hdwallsource.com/img/2016/7/acoustic-guitar-hd-wallpaper-58783-60559-hd-wallpapers.jpg);
+  background-attachment: fixed;
+}
+
+.main {
+    margin-top: 50px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+body {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.intro {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* styling the links*/
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+  background-color: lightgray;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: white;
+  background-color: darkgreen;
+}
+
+div label {
+  color: darkgreen;
+}
+
+::placeholder{
+  color: lightgray;
+}
+#this {
+  width: 830px;
+  height: 800px;
+  background-image: url(https://i.pinimg.com/originals/a5/0c/39/a50c39f12b339e9cda36f0aeade92f53.jpg);
+}
+.footer {
+  background-color: darkgreen;
+  color: white;
+  width: 830px;
+  position: fixed;
+  text-align: center;
+  bottom:0;
+}

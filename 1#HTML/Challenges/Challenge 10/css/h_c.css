@@ -1,0 +1,88 @@
+body {
+  background-image: url(https://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: left;
+  font-family:fantasy;
+  color:darkgreen;
+  margin-top:0px;
+  margin-bottom:60px;
+  margin-left:40px;
+}
+
+p {
+  font-family:serif;
+  text-align: left;
+  margin-left:40px;
+}
+
+.hfont {
+  font-family: fantasy;
+}
+.blank {
+  background-color: white;
+  border-radius: 50px;
+    padding: 10px;
+}
+
+.mid {
+  margin-top:40px;
+  background-color: white;
+    padding: 10px;
+}
+
+.about {
+  margin-top:20px;
+  background-color: white;
+  border-radius: 50px;
+    padding: 10px;
+    margin-bottom:60px;
+    overflow: auto;
+}
+
+.abouthead {
+    font-family:fantasy;
+    color:darkgreen;
+}
+
+img {
+  border-radius:50%;
+}
+.article {
+  margin-top:20px;
+  background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+h2 {
+  font-family: fantasy;
+  color: darkgreen;
+  text-align: center;
+}
+
+.hobbies {
+  margin-top:20px;
+  background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.form {
+    margin-top:20px;
+    background-color: white;
+      padding: 10px;
+      margin-left:342px;
+      margin-right:342px;
+}
+
+.hero {
+    margin-top:20px;
+    background-color: white;
+      padding: 10px;
+      margin-left:342px;
+      margin-right:342px;
+}

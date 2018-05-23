@@ -1,0 +1,174 @@
+
+
+/***giving each grid cell/div color***/
+div {
+
+  background-color: white;
+
+/**working with the text**/
+/*adding color*/
+  color: white;
+}
+
+
+/***creating the grid***/
+body {
+  display: grid;
+  grid-template-areas: 'header header header header header header'
+                       'break space content space break aside'
+                       'break space content space break aside'
+                       'break space content space break aside'
+                       'break space content space break aside'
+                       'break space content space break aside'
+                       'break space content space break aside'
+                       'footer footer footer footer footer footer';
+  grid-template-columns: 10% 5% 1fr 5% 10% 20%;
+  grid-template-rows: 10% 5% repeat(4, 1fr) 1% 5%;
+  /*height: 900px;*/
+
+/*creating some spacing between the grid cells/divs*/
+  /*grid-row-gap: 0.8%;*/
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Photos-Desktop-Tribal-HD-Wallpapers-1024x576.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+div p {
+  /*positioning the text*/
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    line-height: 35px;
+}
+
+
+/***structuring the grid***/
+
+#header {
+  grid-column: 1/7;
+}
+#left-break {
+  grid-row: 2/8;
+
+}
+#content-top {
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+#right-break {
+  grid-column: 6/7;
+  grid-row: 2/8;
+}
+#right-space {
+  grid-column: 2/3;
+  grid-row: 3/7;
+}
+#content-middle {
+  grid-column: 3/5;
+  grid-row: 3/7;
+}
+#left-space {
+  grid-column: 5/6;
+  grid-row: 3/7;
+}
+#content-bottom {
+  grid-column: 2/6;
+}
+#aside-title {
+  display: none;
+}
+.aside {
+  display: none;
+}
+#aside-bottom{
+  display: none;
+  grid-column: 6/7;
+  grid-row: 7/8;
+}
+#footer {
+  grid-column: 1/7;
+
+/*setting position*/
+ bottom: 0;
+ position: sticky;
+}
+ul {
+  text-align: center;
+  word-spacing: 2em;
+}
+li {
+  display: inline;
+}
+/*---------------------------------------------------------------------------*/
+/*group styling*/
+.break {
+  background-color: transparent;
+}
+.page-end {
+  background-color: lightgrey;
+  opacity: 0.9;
+
+}
+.border {
+  background-color: #ab320a;
+  opacity: 0.8;
+}
+.aside-end {
+  background-color: grey;
+}
+.space {
+
+}
+/*---Individual styling---*/
+background-image {
+  filter: grayscale(100%);
+}
+h1 {
+  margin-top: 1.5%;
+  margin-left: 5%;
+  font-size: 45px;
+  color: #ab320a;
+}
+h2 {
+  margin-top: 3%;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/*----------------------------------------------------------------------------*/
+                             /*MEDIA INQUIRIES*/
+/*----------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 1024px)  {
+  #content-top {
+    grid-column: 2/5;
+  }
+  #right-break {
+    grid-column: 5/6;
+  }
+  #content-middle {
+    grid-column: 3/4;
+  }
+  #content-bottom {
+    grid-column: 2/5;
+  }
+  #left-space {
+    grid-column: 4/5;
+  }
+
+  #aside-title {
+    display: block;
+  }
+  .aside {
+    display: block;
+  }
+  #aside-bottom{
+    display: block;
+  }
+}

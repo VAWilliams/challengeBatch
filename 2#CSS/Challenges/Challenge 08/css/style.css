@@ -1,0 +1,28 @@
+.box {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 2px solid darkgrey;
+}
+/*the link*/
+a {
+  text-decoration: none;
+  color: white;
+}
+/*the area the ribbon is in*/
+.ribbon {
+   position: absolute;
+   right: -5px; top: -5px;
+   overflow: hidden;
+   width: 75px; height: 75px;
+}
+/*the ribbon itself*/
+.ribbon span {
+    text-align: center;
+    transform: rotate(45deg);
+    width: 100px;
+    background: darksalmon;
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}

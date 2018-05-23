@@ -1,0 +1,57 @@
+.box {
+  width: 200px;
+  height: 200px;
+}
+/*box one*/
+#one {
+  background-color: grey;
+  float: left;
+  clear: left;
+}
+#one:hover {
+  background-color: black;
+}
+#one:active {
+  background-color: blue;
+}
+
+/*box two*/
+#two {
+  background-color: red;
+  float: right;
+  clear: right;
+}
+#two:hover {
+  background-color: pink;
+}
+#two:active {
+  background-color: violet;
+}
+
+/*box three*/
+#three {
+  background-color: green;
+  float: left;
+  clear: left;
+}
+#three:hover {
+  background-color: lime;
+  width: 600px;
+}
+#three:active {
+  background-color: orange;
+}
+
+/*box four*/
+#four {
+  background-color: yellow;
+  float: right;
+  clear: right;
+}
+#four:hover {
+  background-color: purple;
+  width: 50px;
+}
+#four:active {
+  background-color: indigo;
+}

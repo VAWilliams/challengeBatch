@@ -1,0 +1,78 @@
+
+
+/***giving each grid cell/div color***/
+div {
+  background-color: #2db34a;
+
+/**working with the text**/
+/*adding color*/
+  color: white;
+
+  /*------------------*/
+
+/*smoothing out the grid cells/divs*/
+  padding: 1%;
+  border-radius: 5px;
+}
+
+
+/***creating the grid***/
+body {
+  display: grid;
+  grid-template-areas: 'header header header'
+                       'navbar section section'
+                       'article article article'
+                       'footer footer footer';
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 300px;
+
+/*creating some spacing between the grid cells/divs*/
+  grid-column-gap: 0.8%;
+  grid-row-gap: 3%;
+
+/*placing a margin*/
+  margin: 8%;
+}
+
+
+div p {
+  /*positioning the text*/
+    text-align: center;
+}
+
+
+/***structuring the grid***/
+#header {
+  grid-column: 1/4;
+}
+#section {
+  grid-column: 2/4;
+}
+#footer {
+  grid-column: 1/4;
+}
+
+
+/*----------------------------------------------------------------------------*/
+                             /*MEDIA INQUIRIES*/
+/*----------------------------------------------------------------------------*/
+
+/* tablet */
+@media screen and (max-width: 768px) {
+   div {
+     background-color: blue;
+   }
+}
+
+/* mobile */
+@media screen and (max-width: 425px) {
+   div {
+     background-color: red;
+   }
+}
+
+/* large desktop */
+@media screen and (min-width: 1440px) {
+   div { background-color: orange; }
+}

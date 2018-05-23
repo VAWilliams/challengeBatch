@@ -1,0 +1,32 @@
+
+
+body {
+  background-color: lightblue
+}
+
+/*giving each paragraph a different font*/
+
+.tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+.hi {
+  font-family: 'Hi Melody', cursive;
+}
+.hyeon {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.han {
+  font-family: 'Black Han Sans', sans-serif;
+}
+.gamja {
+  font-family: 'Gamja Flower', cursive;
+}
+/*self explanatory*/
+html {
+  margin:200px;
+}
+/*styling headings*/
+h1, h2, h3, h4, h5 {
+  color: darkblue;
+  text-align: center;
+}

@@ -1,0 +1,128 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/*styling the header and footer*/
+header {
+    text-align: center;
+    padding: 1px;
+    font-family: 'Lato', sans-serif;
+    color: #a66;
+    border-radius: 5px
+}
+footer {
+  border-radius: 5px;
+}
+
+/*Dealing with the body*/
+body {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  color: #a66;
+}
+/*doing some spacing*/
+.task {
+  margin-left: 20px;
+}
+/*hooking up the nav bar*/
+.one {
+  display: inline;
+  word-spacing: 20px;
+  margin-right: 50px;
+}
+
+#nav0 {
+  word-spacing: 0px;
+}
+
+nav {
+  background-color: #a66;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 1px;
+}
+.navlink {
+  text-decoration: none;
+  color: white
+}
+a {
+  color: #a66;
+}
+a:hover {
+  text-decoration: none;
+  color: #a11
+}
+a:focus {
+  text-decoration: none;
+  border-width: medium;
+  background-color: #a99
+}
+}
+a:visited {
+  color: #a11;
+}
+a:active {
+  font-family: 'Merriweather', serif;
+}
+/*messing with the bullets*/
+.print {
+  text-decoration-color: #a66;
+}
+ul {
+  list-style-type: square;
+}
+/*resizing the footer*/
+footer {
+  padding: 1px;
+}

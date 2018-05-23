@@ -1,0 +1,19 @@
+body {
+  margin: 50px;
+}
+
+#speech {
+  margin-left: 40px;
+  width: 150px;
+  height: 100px;
+  background-color: #33ccff;
+  border-radius: 10px;
+}
+/*the pointer of the bubble*/
+#befspeech {
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 70px;
+    border: 20px solid;
+    border-color: transparent #33ccff transparent transparent;
