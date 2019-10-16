@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,KAAM;EAEJ,KAAK,EAAC,KAAK;EACX,QAAG;IAED,MAAM,EAAC,IAAI;IACX,gBAAQ;MAEN,gBAAgB,EAAE,MAAM;IAE1B,gBAAQ;MAEN,gBAAgB,EAAE,MAAM",
+"sources": ["style.scss"],
+"names": [],
+"file": "nested_table_challenge.css"
+}

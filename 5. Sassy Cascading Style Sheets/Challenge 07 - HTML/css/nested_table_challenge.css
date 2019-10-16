@@ -1,0 +1,10 @@
+table {
+  width: 500px; }
+  table tr {
+    height: 80px; }
+    table tr .orange {
+      background-color: orange; }
+    table tr .yellow {
+      background-color: yellow; }
+
+/*# sourceMappingURL=nested_table_challenge.css.map */

@@ -1,0 +1,17 @@
+
+table {
+  //The table recieves a width
+  width:500px;
+  tr {
+    //Each table row recieves a height
+    height:80px;
+    .orange {
+      //Every cell with the class "orange" gets the background-color orange
+      background-color: orange;
+    }
+    .yellow {
+      //Every cell with the class "yellow" gets the background-color yellow
+      background-color: yellow;
+    }
+  }
+}
